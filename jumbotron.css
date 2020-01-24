@@ -1,0 +1,17 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+
+.jumbotron {
+    height: 500px;
+    background-image: url(photography-of-man-surfing-2103783.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.card-img-top {
+  height: 25em;
+  object-fit: cover;
+}
